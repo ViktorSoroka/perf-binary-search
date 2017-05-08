@@ -1,0 +1,18 @@
+{
+  "name": "perf",
+  "version": "1.0.0",
+  "description": "pefromance testing for binary search and built in indexOf method",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "perf": "node perfomance.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
